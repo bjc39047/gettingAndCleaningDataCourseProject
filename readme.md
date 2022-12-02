@@ -17,8 +17,8 @@ and activity.
 Example usage for these functions is shown below:
 
 > myData<-getRawData("C:/Users/clark/Desktop/cleandata/dataset/") ;
-> mySummarizedData<-summarizeData(myData)
-> write.table(myData,"C:/Users/clark/Desktop/cleandata/dataset/data.csv",sep=",")
+> mySummarizedData<-summarizeData(myData) ;
+> write.table(myData,"C:/Users/clark/Desktop/cleandata/dataset/data.csv",sep=",") ;
 > write.table(mySummarizedData,"C:/Users/clark/Desktop/cleandata/dataset/summarizedData.csv",sep=",")
 
 
