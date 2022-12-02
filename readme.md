@@ -11,7 +11,7 @@ it returns the data frame requested in step 1 of the assignment.  getRawData cal
 the column names found in features.txt so that they jive with 'tidy data' principles.  All other function calls
 are included in the necessary libraries listed above.
 
-The function summarize data calculates the average of all the numeric columns in getRawData by subject 
+The function summarizeData calculates the average of all the numeric columns in getRawData by subject 
 and activity.
 
 Example usage for these functions is shown below:
